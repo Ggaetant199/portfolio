@@ -15,11 +15,3 @@ $(btnCloseMenu).click(e => {
     $(divMenu).hide();
     $(btnMenu).show();
 })
-
-$('#div-menu a').click(e => {
-    e.preventDefault();
-
-    $(btnCloseMenu).hide();
-    $(divMenu).hide();
-    $(btnMenu).show();
-})
