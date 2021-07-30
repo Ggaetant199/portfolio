@@ -4,34 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="GOMSU GAETANT">
+    <meta name="description" content="mon site web portfolio pour me présenter en ligne.">
+    <meta name="keywords" content="site web portfolio gaetant gomsu développement application mobile logiciel">
     <title>GOMSU GAETANT : génie logiciel</title>
-    <meta name="theme-color" content="#ffeab7">
+    <meta name="theme-color" content="#96bce2">
+
+    <!-- importation des ressources css -->
+
     <link rel="stylesheet" href="res/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="res/css/main.css">
+
+    <!------------------------------------->
+
 </head>
 <body class="bg-light">
     
-    <header>
+    <div id="up"></div>
 
+    <!-- block de navigation -->
+    
+    <nav class="nav-block">
+
+            <div class="text-right app-container">
+                
+                <a href="#up" class="btn btn-primary">Back up</a>
+    
+            </div>
+    
+            <div id="div-menu" class="bg-light" style="display: none;">
+
+                <div class="app-container p-2" style="border: 0.5px solid #000000;">
+
+                    <div><a href="">Accueil</a></div>
+                    <div><a href="">A propos</a></div>
+                    <div><a href="">Services</a></div>
+                    <div><a href="">Contact</a></div>
+                    <div><a href="">Background</a></div>
+                    <div><a href="">Réalisation</a></div>
+
+                </div>
+            </div>
+
+            <div class="nav-element">
+    
+                <div class="app-container row justify-content-between align-items-center"> 
+
+                    <a href="./index.html" title="page d'accueil">
+                        <img src="res/icone/essential/svg/home.svg" alt="" width="25" height="25">
+                    </a>
+        
+                    <a href="./public/contact.html" title="me contacter">
+                        <img src="res/icone/essential/svg/network.svg" alt="" width="25" height="25">
+                    </a>
+        
+                    <img src="res/icone/essential/svg/menu-3.svg" alt="" width="25" height="25" title="memu" id="btn-menu">
+                    <img src="res/icone/essential/svg/multiply-1.svg" alt="" width="25" height="25" title="fermer le menu" style="display: none;" id="btn-close-Menu">
+
+                </div>
+    
+            </div>            
+
+    </nav>
+
+    <!-- fin du block de navigation -->
+
+
+    <!-- block de l'entête -->
+
+    <header class="bg-dark p-2 text-light">
+
+        <div class="app-container">
+            
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt debitis vero saepe,
+            </p>
+
+        </div>
 
     </header>
 
+    <!-- fin du block de l'entête -->
+
+
+    <!-- block du corps de la page -->
+    
     <section id="view">
 
-        <h1 class="text-center p-2 bg-primary">hello world ! </h1>
+        <div class="app-container">
+            <p class="p-2">
+                ceci est mon site web portfolio héberger sur github. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident quasi commodi tempora cumque non odio minima fuga, mollitia voluptatem a cum facilis nemo molestias. Cum et sint ad possimus.
+            </p>
 
-        <p class="p-2">
-            ceci est mon site web portfolio héberger sur github.
-        </p>
+            <p class="p-2">
+                ceci est mon site web portfolio héberger sur github. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident quasi commodi tempora cumque non odio minima fuga, mollitia voluptatem a cum facilis nemo molestias. Cum et sint ad possimus.
+            </p>
+
+            <p class="p-2">
+                ceci est mon site web portfolio héberger sur github. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident quasi commodi tempora cumque non odio minima fuga, mollitia voluptatem a cum facilis nemo molestias. Cum et sint ad possimus.
+            </p>
+
+            <p class="p-2">
+                ceci est mon site web portfolio héberger sur github. <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident quasi commodi tempora cumque non odio minima fuga, mollitia voluptatem a cum facilis nemo molestias. Cum et sint ad possimus.
+            </p>
+
+        </div>
 
     </section>
 
-    <footer>
+    <!-- fin du block du corps de la page -->
+
+
+    <!-- block du pied de page -->
+
+    <footer class="bg-dark text-light p-4">
+
+        <div class="app-container">
+            <p class="text-center p-2">
+                &copy; <span id="date-year">2021</span> gg.gomsugaetant@gmail.com; tout droit reservé.
+            </p>
+        </div>
 
     </footer>
+
+    <!-- fin du block de pied de page -->
+
+    <!--  -->
+    <div style="height:150px" class="bg-dark"></div>
+    <!--  -->
+
+    <!-- importation des ressources javascript -->
 
     <script src="res/bootstrap/bootstrap.min.js"></script>
     <script src="res/jquery/jquery.min.js"></script>
     <script src="res/js/main.js"></script>
+
+    <!-------------------------------------------->
 </body>
 </html>

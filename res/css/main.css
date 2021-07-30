@@ -1,0 +1,32 @@
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-block {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-block .nav-element {
+    background-color: #96bce2;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    height: 50px;
+    padding: 10px;
+}
+
+.nav-block img {
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.app-container{
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
