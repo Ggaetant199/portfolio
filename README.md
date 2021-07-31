@@ -1,1 +1,1 @@
-#this this my simple web site portfolio in github.
+#this this my simple site web portfolio in github.
