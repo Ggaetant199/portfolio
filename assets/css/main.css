@@ -3,13 +3,13 @@
 }
 
 *::-webkit-scrollbar {
-    width: 5px;
-    height: 6px;
+    width: 2px;
+    height: 5px;
 }
 
 *::-webkit-scrollbar-thumb{
-    background-color: #082949;
-    border-radius: 20px
+    background-color: #4481dd;
+    border-radius: 2px
 }
 
 .row {
