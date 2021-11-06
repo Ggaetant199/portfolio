@@ -1,0 +1,71 @@
+* {
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 6px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #082949;
+    border-radius: 20px
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-block {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.app-container{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app-bg-1,.app-bg-p{
+    background-color: #96bce2;
+}
+
+.app-bg-2,.app-bg-s{
+    background-color: #151e33;
+}
+
+.app-w-max-content {
+    min-width: max-content;
+}
+
+.app-fs-1 {
+    font-size: 0.9em;
+}
+
+.app-fs-2 {
+    font-size: 0.8em;
+}
+
+.app-fs-3 {
+    font-size: 0.7em;
+}
+
+.app-fs-4 {
+    font-size: 0.6em;
+}
+
+.app-fs-5 {
+    font-size: 0.5em;
+}
+
+.app-fs-6 {
+    font-size: 0.4em;
+}
